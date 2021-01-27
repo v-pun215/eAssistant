@@ -40,6 +40,24 @@
 }
 
 /* Style the links inside the navigation bar */
+.t a {
+  float: right;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.t a:hover {
+  color: lightgray;
+}
+
+/* Add a color to the active/current link */
+.t a.active {
+  color: lightgray;
+}
 .topnav a {
   float: right;
   color: gray;
@@ -90,8 +108,8 @@ h3 {
   font-size: 16px;
 }
 </style>
-<div class="topnav">
-  <p style="float:right;">eAssistant</p>
+<div class="t">
+  <p style="float:left;">eAssistant</p>
   <a class="b">Get</a>
   <a class="active" href="index.html">Overview</a>
 </div>
